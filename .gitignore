@@ -1,31 +1,41 @@
+############
+## Eclipse
+############
 .classpath
 .project
 .settings/
+.metadata/
 bin/
-.swp
+tmp/
+.loadpath
+.factorypath
 
-
-allure-results/
-screenshots/
-screenshot/
-test-output/
-build/
+############
+## IntelliJ
+############
+.idea/
+.idea_modules/
+out/
+*.iml
+*.ipr
+*.iws
 
 ############
 ## Java
 ############
-.mtj.tmp/
-* class
-*. jar
-*. war
-* ear
-* nar
+*.class
+*.jar
+*.war
+*.ear
+*.nar
 hs_err_pid*
-activityLog.log
+.mtj.tmp/
+local.properties
+*~
 
-##########
+############
 ## Maven
-##########
+############
 target/
 pom.xml.tag
 pom.xml.releaseBackup
@@ -36,36 +46,33 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-.mvn/wrapper/maven-wrapper.jar
 
-#############
-## IntelliJ
-#############
-out/
-.idea/
-.idea_modules/
-* iml
-*. ipr
-*. iws
+############
+## Test Automation
+############
+allure-results/
+allure-report/
+screenshots/
+screenshot/
+test-output/
+build/
 
-###########
-## Eclipse
-###########
-.settings/
-bin/
-tmp/
-.metadata
-.classpath
-.project
-*. tmp
-* bak
-* swp
-*~. nib
-local.properties
-.loadpath
-.factorypath
+############
+## Logs
+############
+*.log
+activityLog.log
 
-#########
-## OS X
-#########
+############
+## Temporary Files
+############
+*.tmp
+*.swp
+*.bak
+
+############
+## OS
+############
 .DS_Store
+Thumbs.db
+desktop.ini
