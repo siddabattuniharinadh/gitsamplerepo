@@ -6,6 +6,9 @@ public class MyTest {
 		// TODO Auto-generated method stub
 		String S="Harinadh";
 		int age=26;
+		String city="Guntur";
+		String country="IN";
+		
 		
 	}
 
