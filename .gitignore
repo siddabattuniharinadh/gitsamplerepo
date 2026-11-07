@@ -2,7 +2,7 @@
 ## Eclipse
 ############
 .classpath
-.project
+#.project
 .settings/
 .metadata/
 bin/
