@@ -8,6 +8,7 @@ public class MyTest {
 		int age=26;
 		String city="Guntur";
 		String country="IN";
+		System.out.println();
 		
 		
 	}
